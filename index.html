@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>ImageGallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
+    <style type="text/css">
+    .navbar-default .navbar-nav>li>a 
+    {
+        color:white; 
+    }
+    .navbar-default .navbar-brand {
+        color:white;
+    }
+    .navbar-default {
+        background: #2c3e50;  
+    }
+    .jumbotron {
+        color:#2c3e50;  
+    }
+    body {
+        padding-top:70px;
+    }
+    #navg {
+        background-color:#2c3e50;
+    } 
+    .text {
+        color: #ecf0f1;
+    }
+    .image1 {
+  background-image: url(https://images.unsplash.com/photo-1571406761713-615eb52fb588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+.image2 {
+  background-image: url(https://images.unsplash.com/photo-1558981001-1995369a39cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.image3 {
+  background-image: url(https://images.unsplash.com/photo-1583714339805-902e3c7fc0ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.image4 {
+  background-image: url(https://images.unsplash.com/photo-1583710739029-13e9ee12c1eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.image5 {
+  background-image: url(https://images.unsplash.com/photo-1583698972183-a9877904bbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.image6 {
+  background-image: url(https://images.unsplash.com/photo-1583742656390-f086bdc2713a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+   
+    </style>  
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navg">
+        <div class="container">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#content" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+            <a href="#" class="navbar-brand text"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>IMGS</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="content">
+<div class="nav navbar-nav">
+    <li><a href="#" class="text">About</a></li>
+    <li><a href="#" class="text">Contact</a></li>
+</div>
+<div class="nav navbar-nav navbar-right">
+<li><a href="%" class="text">Sign up</a></li>
+<li><a href="$" class="text">Login</a></li>
+
+</div>
+ </div>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+            
+        <h1><i class="fas fa-camera-retro"></i>
+            The Image Gallary</h1>
+      
+    </div>
+    <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="image image1"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="image image2"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="image image3"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="image image4"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="image image5"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="image image6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+</div>
+
+
+</body>
+</html>
